@@ -1,6 +1,6 @@
-# ⚙️ Easy Object Keys Converter
+# <center> ⚙️ Easy Object Keys Converter </center>
 
-Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore and in the same way as snake case to camel case.
+<center> Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore and in the same way as snake case to camel case. </center>
 
 ### Installation
 
@@ -21,9 +21,9 @@ Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore 
 ### Camel Case to Snake Case (underscore)
 
 ```sh
-  import { camelCaseToSnakeCase } from "easy-object-conv"
+  import { camelToSnake } from "easy-object-conv"
   ...
-  camelCaseToSnakeCase(object)
+  camelToSnake(object)
   ...
 ```
 
@@ -46,7 +46,7 @@ Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore 
   {
     id: 1,
     field_one: Bruno,
-    field_owo: {
+    field_two: {
       field_three: Hello,
       field_four: World
     }
@@ -56,9 +56,9 @@ Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore 
 ### Snake Case (underscore) to Camel Case
 
 ```sh
-  import { snakeCaseToCamelCase } from "easy-object-conv"
+  import { snakeToCamel } from "easy-object-conv"
   ...
-  snakeCaseToCamelCase(object)
+  snakeToCamel(object)
   ...
 ```
 
@@ -68,7 +68,7 @@ Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore 
   {
     id: 1,
     field_one: Bruno,
-    field_owo: {
+    field_two: {
       field_three: Hello,
       field_four: World
     }
