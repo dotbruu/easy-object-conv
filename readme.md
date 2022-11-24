@@ -1,6 +1,6 @@
-# <center> ⚙️ Easy Object Keys Converter </center>
+# ⚙️ Easy Object Keys Converter
 
-<center> Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore and in the same way as snake case to camel case. </center>
+Use to convert objects keys in 🐪 camel case to 🐍 snake case or underscore and in the same way as snake case to camel case.
 
 ### Installation
 
